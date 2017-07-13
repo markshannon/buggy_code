@@ -4,7 +4,7 @@ if random:
 else:
     numbers = 1, 2, 3
 
-if isinstance(numbers, list):
+if isinstance(numbers, tuple):
     for n in numbers:
         print(n)
 else:
